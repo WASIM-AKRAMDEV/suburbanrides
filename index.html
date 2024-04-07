@@ -1,0 +1,739 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- custom css link -->
+    <link rel="stylesheet" href="./css/style.css" />
+    <!-- Bootstrap css link -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <!-- Font Awesome link -->
+    <script
+      src="https://kit.fontawesome.com/e62912d1a1.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!-- header start -->
+    <header>
+      <div
+        class="custom-container d-flex justify-content-between align-content-center"
+      >
+        <i class="fa-solid fa-phone my-auto" ></i>
+        <a href="#" class="mt-2 logo">
+          <img src="./assets/images/Suburban-Rides-323w.png" alt="" />
+        </a>
+        <div
+          class="contact-links d-flex flex-column justify-content-end align-items-end"
+        >
+          <p class="mb-2">
+            <a href=""
+              ><i class="bi bi-telephone me-5"></i> (630) 621-3355 | (888)
+              499-1036</a
+            >
+          </p>
+          <p class="">
+            <a href=""
+              ><i class="bi bi-envelope me-5"></i> Info@suburbanrides.com</a
+            >
+          </p>
+        </div>
+        <a href="" class="num-btn">(630) 621-3355</a>
+        <!-- Collapse button -->
+
+        <div class="menu" id="menu">
+          <div>
+            <span class="line-1"></span>
+            <span class="line-2"></span>
+            <span class="line-3"></span>
+          </div>
+        </div>
+        <i class="fa-solid fa-bars h3 my-auto" id="menu"></i>
+      </div>
+    </header>
+
+    <!-- offcanvas start -->
+
+    <div class="offcanvas-menu">
+      <div class=" text-white position-static h2 pe-3 pt-4 d-flex align-items-center justify-content-end w-100" id="menu">
+        <i class="fa-solid fa-xmark"></i>
+      </div>  
+      <div class="menu-content">
+        <div class="icon-cont d-flex">
+          <span class="facebook">
+            <i class="fa-brands fa-facebook-f"></i>
+          </span>
+          <span class="twitter">
+            <i class="fa-brands fa-x-twitter"></i>
+          </span>
+          <span class="yelp">
+            <i class="fa-brands fa-yelp"></i>
+          </span>
+          <span class="google">
+            <i class="fa-brands fa-google"></i>
+          </span>
+        </div>
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">HOME</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">OUR FLEET</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">OUR SERVICES</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">ABOUT US</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a
+              class="dropdown-toggle"
+              href="#"
+              role="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              CALL FOR RATES <i class="bi bi-chevron-down ms-2"></i>
+            </a>
+            <ul class="dropdown-menu">
+              <li>
+                <a class="dropdown-item" href="#"
+                  >TRANSPORTATION SERVICES IN CHICAGO</a
+                >
+              </li>
+              <li><a class="dropdown-item" href="#">NEW JERSEY</a></li>
+              <li><a class="dropdown-item" href="#">SAN FRANCISCO</a></li>
+
+              <li><a class="dropdown-item" href="#">LAS VEGAS</a></li>
+              <li><a class="dropdown-item" href="#">DALLAS</a></li>
+
+              <li><a class="dropdown-item" href="#">WASHINGTON DC</a></li>
+              <li><a class="dropdown-item" href="#">AUSTIN</a></li>
+
+              <li><a class="dropdown-item" href="#"> HOUSTON</a></li>
+              <li><a class="dropdown-item" href="#">EL PASO TEXAS</a></li>
+
+              <li><a class="dropdown-item" href="#"> SAN ANTONIO TEXAS</a></li>
+              <li><a class="dropdown-item" href="#">PITTSBURGH</a></li>
+              
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">BOOK / RESERVE NOW </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">PAY NOW </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Hero section start -->
+    <section class="hero-section">
+      <nav class="navbar navbar-expand-lg" id="topbar">
+        <div class="container">
+          <div class="navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">HOME</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">OUR FLEET</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">OUR SERVICES</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">ABOUT US</a>
+              </li>
+              <li class="custom-dropdown">
+                <a class="selected-item py-2">
+                  CALL FOR RATES <i class="bi bi-chevron-down ms-2"></i
+                ></a>
+                <div class="dropdown-content">
+                  <div class="dropdown-item py-3 px-2">
+                    <a href="">TRANSPORTATION SERVICES IN CHICAGO</a>
+                  </div>
+                  <div class="dropdown-item py-3 px-2">
+                    <a href="">NEW JERSEY</a>
+                  </div>
+                  <div class="dropdown-item py-3 px-2">
+                    <a href="">SAN FRANCISCO</a>
+                  </div>
+
+                  <div class="dropdown-item py-3 px-2">
+                    <a href="">LAS VEGAS</a>
+                  </div>
+                  <div class="dropdown-item py-3 px-2">
+                    <a href="">DALLAS</a>
+                  </div>
+                  <div class="dropdown-item py-3 px-2">
+                    <a href="">WASHINGTON DC</a>
+                  </div>
+
+                  <div class="dropdown-item py-3 px-2">
+                    <a href="">AUSTIN</a>
+                  </div>
+                  <div class="dropdown-item py-3 px-2">
+                    <a href="">DALLAS</a>
+                  </div>
+                  <div class="dropdown-item py-3 px-2">
+                    <a href="">WASHINGTON DC</a>
+                  </div>
+                </div>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#">BOOK / RESERVE NOW </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">PAY NOW </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div
+        class="w-100 h-100 d-flex flex-column justify-content-center align-items-center"
+      >
+        <div class="detials">
+          <h1>Now Open To Serve You!</h1>
+          <h3>SubUrban Rides Washington D.C</h3>
+          <button class="btn">BOOK / RESERVE NOW</button>
+        </div>
+      </div>
+    </section>
+    <!-- Hero section end -->
+
+    <!-- car section start -->
+    <section class="car-section">
+      <div class="custom-container">
+        <h4 class="mx-auto pt-4 pt-lg-0 pt-md-0">
+          CHICAGO, WASHINGTON D.C., SAN FRANCISCO, ​NEW JERSEY, LAS VEGAS,
+          DALLAS, PITTSBURGH, AUSTIN, Manila Phillipines, HOUSTON, EL PASO, SAN
+          ANTONIO, SEATTLE AND MELBOURNE ARE ALL OPEN TO SERVE YOU.
+        </h4>
+        <div class="d-flex justify-content-center align-items-center mt-3">
+          <span class="line-1"></span>
+          <i class="fa-solid fa-star"></i>
+          <span class="line-2"></span>
+        </div>
+      </div>
+    </section>
+    <!-- car section end -->
+
+    <!-- our fleet section start -->
+    <section class="our-fleet-section">
+      <div class="custom-container">
+        <h2 class="">OUR FLEET</h2>
+        <div class="d-flex justify-content-center align-items-center mt-3 mb-5">
+          <span class="line-1"></span>
+          <i class="fa-solid fa-car"></i>
+          <span class="line-2"></span>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-3 col-md-6 mt-5">
+            <div class="card">
+              <img src="./assets/images/coachbus-1920w.png" alt="" />
+              <h3>Coach Bus</h3>
+              <i
+                class="bi bi-arrow-right-circle fs-1 text-dark text-center"
+              ></i>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 mt-5">
+            <div class="card">
+              <img src="./assets/images/extralargesuv_1-338w.png" alt="" />
+              <h3>EXTRA LARGE SUV</h3>
+              <i
+                class="bi bi-arrow-right-circle fs-1 text-dark text-center"
+              ></i>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 mt-5">
+            <div class="card">
+              <img src="./assets/images/largesuv_1-338w.png" alt="" />
+              <h3>LARGE SUV</h3>
+              <i
+                class="bi bi-arrow-right-circle fs-1 text-dark text-center"
+              ></i>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 mt-5">
+            <div class="card">
+              <img src="./assets/images/mediumsuv_1-338w.png" alt="" />
+              <h3>MEDIUM SUV</h3>
+              <i
+                class="bi bi-arrow-right-circle fs-1 text-dark text-center"
+              ></i>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 mt-5">
+            <div class="card">
+              <img src="./assets/images/car-8-338w.jpg" alt="" />
+              <h3>PARTY BUS</h3>
+              <i
+                class="bi bi-arrow-right-circle fs-1 text-dark text-center"
+              ></i>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 mt-5">
+            <div class="card">
+              <img src="./assets/images/shuttlebus-338w.png" alt="" />
+              <h3>PASSENGER SHUTTLE</h3>
+              <i
+                class="bi bi-arrow-right-circle fs-1 text-dark text-center"
+              ></i>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 mt-5">
+            <div class="card">
+              <img src="./assets/images/Sedan-338w.png" alt="" />
+              <h3>SEDAN</h3>
+              <i
+                class="bi bi-arrow-right-circle fs-1 text-dark text-center"
+              ></i>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 mt-5">
+            <div class="card">
+              <img src="./assets/images/smallsuv-338w.png" alt="" />
+              <h3>SMALL SUV</h3>
+              <i
+                class="bi bi-arrow-right-circle fs-1 text-dark text-center"
+              ></i>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 mt-5">
+            <div class="card">
+              <img src="./assets/images/stretchlim-338w.png" alt="" />
+              <h3>STRETCH LIMO</h3>
+              <i
+                class="bi bi-arrow-right-circle fs-1 text-dark text-center"
+              ></i>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 mt-5">
+            <div class="card">
+              <img src="./assets/images/stretchlim-338w.png" alt="" />
+              <h3>SUV LIMO</h3>
+              <i
+                class="bi bi-arrow-right-circle fs-1 text-dark text-center"
+              ></i>
+            </div>
+          </div>
+        </div>
+
+        <div class="row justify-content-between mt-5 mb-5">
+          <div class="col-lg-4">
+            <h3 class="text-start">AIRPORT TRANSFERS</h3>
+            <p>
+              Kickstart your trip the right way and book your private transfers
+              to and from! Just enter all the details of your trip and let us
+              provide you with different transfer options perfect for solo
+              travelers up to big passenger groups!
+            </p>
+          </div>
+          <div class="col-lg-4">
+            <h3 class="text-start">ROUND TRIP TRANSFERS</h3>
+            <p>
+              Make your trip hassle-free with this private, round-trip
+              transfers. Let us handle your transportation. We’ll be there to
+              greet you upon arrival and will drop you safe to your destination
+              in comfort.
+            </p>
+          </div>
+          <div class="col-lg-4">
+            <h3 class="text-start">CHARTERED SERVICES</h3>
+            <p>
+              Do you need a luxury car service for long trips? With Suburban
+              Rides, you can hire a chauffeured luxury car service by the hour
+              at your convenience. We provide high standard vehicles and fully
+              trained professionals who will work to make sure you have safety,
+              comfort, and exceptional travel experience.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- our fleet section end -->
+
+    <!-- want section start -->
+    <section class="want-section mt-2">
+      <div
+        class="custom-container d-flex justify-content-between align-items-center flex-wrap"
+      >
+        <p>
+          <span class="title">WANT TO PAY NOW?</span>
+          <span class="subtitle">
+            Don’t worry. We provide very nice deals and the most competative
+            rates just for you!</span
+          >
+        </p>
+        <button class="btn">PAY NOW →</button>
+      </div>
+    </section>
+    <!-- want section  end -->
+    
+    <!-- Our services start -->
+    <section
+      class="our-services-section d-flex flex-column justify-content-center"
+    >
+      <div class="custom-container">
+        <div class="d-flex justify-content-center align-items-center flex-column flex-lg-row flex-md-row">
+          <span class="line-1"></span>
+          <h2>OUR SERVICES</h2>
+          <span class="line-2"></span>
+        </div>
+      </div>
+    </section>
+    <!-- Our services end -->
+
+    <!-- function section start -->
+    <section class="functions-section">
+      <div class="custom-container">
+        <div class="row">
+          <div class="col-lg-4 mt-3">
+            <h3>NIGHT PARTIES</h3>
+            <a href="">Read More</a>
+          </div>
+          <div class="col-lg-4 mt-3">
+            <h3>WEDDINGS</h3>
+            <a href="">Read More</a>
+          </div>
+          <div class="col-lg-4 mt-3">
+            <h3>CASINOS</h3>
+            <a href="">Read More</a>
+          </div>
+          <div class="col-lg-4 mt-3">
+            <h3>BIRTHDAYS</h3>
+            <a href="">Read More</a>
+          </div>
+          <div class="col-lg-4 mt-3">
+            <h3>PROMS</h3>
+            <a href="">Read More</a>
+          </div>
+          <div class="col-lg-4 mt-3">
+            <div class="d-flex position-relative flex-column flex-lg-row flex-md-row">
+              <img
+                src="./assets/images/airplane.png"
+                alt=""
+                width="40px"
+                class="aeroplane"
+              />
+              <h3>AIRPORT TRANSFERS</h3>
+            </div>
+            <a href="">Read More</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- function section end -->
+
+    <!-- Promise section start -->
+    <section class="promise-section">
+      <div
+        class="custom-container h-100 d-flex justify-content-center align-items-center"
+      >
+        <div class="row">
+          <div class="col-lg-6 px-4">
+            <h2>WE PROMISE, YOU WILL HAVE THE BEST EXPERIENCE</h2>
+            <span class="line"></span>
+            <p>
+              Getting to the airport on-time can be a stressful experience. Then
+              once you get there, you have to find a place to park which can
+              cost $14 – 30/day! Why not let Suburban Rides handle your
+              transportation? Sit back and relax in our of our clean vehicles
+              while we take all the stress out of airport transportation. Our
+              friendly drivers will pick you up from your home or office and
+              drop you off right at your terminal. Whether you’re going to
+              Chicago O’Hare Airport or San Francisco Airport, Suburban Rides
+              has flat affordable rates for you.
+            </p>
+            <button class="btn">Quote / Reserve Now</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Promise section end -->
+
+    <!-- Drive section  start -->
+    <section class="Drive-section">
+      <div class="custom-container">
+        <div class="head-text">
+          <img
+            src="./assets/images/quote-right_5355760.png"
+            width="40px"
+            alt=""
+          />
+          <p>
+            Whether travelling to Chicago, San Francisco, New Jersey, Seattle,
+            Las Vegas, Dallas, Pittsburgh, Austin, Houston, El Paso and San
+            Antonio, TX and Melbourne for business or pleasure, opting for a
+            reliable and customer-centric car service can transform the way you
+            explore and navigate the city.
+          </p>
+        </div>
+        <div class="image-cont">
+          <img
+            src="./assets/images/chicago-ohare-airport-1024x683-1440w.jpg"
+            alt=""
+            width="100%"
+            height="100%"
+          />
+        </div>
+        <p class="text-two">
+          Getting to the airport on-time can be a stressful experience. Then
+          once you get there, you have to find a place to park which can cost
+          $14-30/day! Why not let Suburban Rides handle your airport
+          transportation? Sit back and relax in one of our clean vehicles while
+          we take all the stress out of airport transfers.
+        </p>
+        <div class="image-cont">
+          <img
+            src="./assets/images/Chicago-OHare-Aiport-Transfers-1024x576-1440w.jpg"
+            alt=""
+            width="100%"
+            height="100%"
+          />
+        </div>
+        <p class="text-two">
+          Our friendly drivers will pick you up from your home or office and
+          drop you off right at your terminal. Whether you’re going to Chicago
+          O’Hare Airport or Midway, on solo or in a group, our luxury rental
+          serves all your needs in the most cost-effective manner. Suburban
+          Rides has flat affordable rates for you. Feel like traveling in style?
+          We also offer the luxury experience of a limousine. A tourist who
+          desire to tour in the most comfortable manner should go choose –
+          “Suburban Rides”. Hiring us, you will get a thrill and pleasure.
+        </p>
+        <h4>Contact us today for rates, <a href="">(630) 621-3355</a>.</h4>
+        <div class="row">
+          <div class="col-lg-12 mt-4">
+            <h2>WANT TO DRIVE FOR US?</h2>
+            <ul>
+              <li>Do you like to drive? Do you like meeting new people?</li>
+              <li>Are you customer service oriented?</li>
+              <li>Do you like to set your own hours when to work?</li>
+            </ul>
+            <p class="drive-text">
+              We are looking for you! We need drivers to take customers to and
+              from the airport or point-to-point transfers. If this sounds like
+              you, come work for a top rated ground transportation service
+              company.
+            </p>
+            <p class="drive-text">
+              You mainly take people to and from the airport who travel for
+              business or leisure! Also, if you own a 4 door sedan, SUV,
+              Crossover, Mini-van or Passenger Van and would be interested in
+              driving your own vehicle, fill out the contact form!
+            </p>
+            <h5>To qualify the only requirements are:</h5>
+
+            <ul>
+              <li>You must be AT LEAST 23 years of age (no exceptions!)</li>
+              <li>Have a valid Driver’s License. (NO CDL REQUIRED)</li>
+              <li>
+                MVR – No accidents in past 3 years (a couple of tickets are
+                okay)
+              </li>
+              <li>No felonies and NO DUI on record… EVER!</li>
+            </ul>
+            <button class="btn">I WANT TO DRIVE FOR SUBURBAN RIDES</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Drive section  end -->
+
+    <!-- Reviews section start -->
+    <section class="Review-section">
+      <div class="custom-container position-relative">
+        <h2>REVIEWS</h2>
+
+        <div class="h-100%">
+          <p
+            class="animate-text d-flex flex-column justify-content-center align-items-center mt-4"
+          >
+            <span
+              >Loved ones and I have had the chance to use Suburban Rides on
+              eight separate occasions now and each and every time, Suburban
+              Rides has been absolutely fantastic. The driver always arrive
+              early. The car is always absolutely immaculate. The driver is
+              always incredibly professional (helping with luggage, quick with
+              polite conversation, etc.). After 8 separate experiences, I
+              literally cannot come up with a negative thing to type. If you are
+              looking for transportation throughout the greater Chicagoland area
+              or anywhere Suburban Rides is available, your first and only phone
+              call should be to Suburban Rides for all your transportation
+              needs.
+            </span>
+            <span>
+              Suburban Rides in particular Fernando provided an excellent
+              transportation service. Suburban Rides is easy to communicate
+              with. Highly recommend Suburban Rides . - Karen C.
+            </span>
+            <span>
+              Great Service Friendly Drivers SAFER compared to other ordinary
+              Taxi The Owner makes sure the Clients can atleast make it on time
+              and even suggest alternatives esp during flight schedule Delays
+              And Inevitable Weather Conditions - Regina
+            </span>
+          </p>
+        </div>
+        <i class="fa-solid fa-chevron-left" id="left-chevron"></i>
+        <i class="fa-solid fa-chevron-right" id="right-chevron"></i>
+      </div>
+    </section>
+    <!-- Reiews section end -->
+
+    <!-- Areas section start -->
+    <section class="Area-section">
+      <div class="custom-container">
+        <h2 class="mb-4">AREAS WE SERVE</h2>
+        <div class="head">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d19254995.43052937!2d-115.33905887661253!3d33.57785089627633!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54eab584e432360b%3A0x1c3bb99243deb742!2sUnited%20States!5e0!3m2!1sen!2s!4v1704913326006!5m2!1sen!2s"
+            width="100%"
+            height="100%"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+        <div class="content">
+          <div class="row">
+            <div class="col-lg-6">
+              <a href=""
+                ><span>Los Vegas, NV</span>
+                <span>Vegas Dr, Las Vegas, NV USA</span></a
+              >
+            </div>
+            <div class="col-lg-6">
+              <a href=""
+                ><span>Washington DC.</span>
+                <span
+                  >Washington DC, DC 20004, United States of America</span
+                ></a
+              >
+            </div>
+            <div class="col-lg-6">
+              <a href=""
+                ><span>Dallas, TX</span>
+                <span>Dallas, TX, United States of America</span></a
+              >
+            </div>
+            <div class="col-lg-6">
+              <a href=""
+                ><span>Houston, TX</span>
+                <span>Houston, TX 77002, United States of America</span></a
+              >
+            </div>
+            <div class="col-lg-6">
+              <a href=""
+                ><span>Austin, TX</span>
+                <span>Austin, TX 78701, United States of America</span></a
+              >
+            </div>
+            <div class="col-lg-6">
+              <a href=""
+                ><span>Austin, TX</span>
+                <span>Austin, TX 78701, United States of America</span></a
+              >
+            </div>
+            <div class="col-lg-6">
+              <a href=""
+                ><span>Newark, New Jersey</span>
+                <span
+                  >New Jersey Tpke, Newark, NJ 07105, United States of
+                  America</span
+                ></a
+              >
+            </div>
+            <div class="col-lg-6">
+              <a href=""
+                ><span>Chicago, IL</span>
+                <span>Chicago, IL 60602, United States of America</span></a
+              >
+            </div>
+            <div class="col-lg-6">
+              <a href=""
+                ><span>San Francisco, CA</span>
+                <span>San Francisco, CA, United States of America</span></a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Areas section start -->
+
+    <!-- contact-section start -->
+    <section class="contact-section">
+      <div class="custom-container">
+        <div class="row">
+          <div
+            class="col-lg-4 d-flex flex-column justify-content-center align-items-center"
+          >
+            <i class="bi bi-telephone mb-3"></i>
+            <a href="">(630) 621-3355</a>
+            <a href="">(888) 499-1036</a>
+          </div>
+          <div
+            class="col-lg-4 px-5 d-flex flex-column justify-content-center align-items-center"
+          >
+            <i class="fa-solid fa-map-location-dot mb-4"></i>
+            <p>2909 N Sheridan Rd, Chicago, IL 60657, United States</p>
+          </div>
+          <div
+            class="col-lg-4 d-flex flex-column justify-content-center align-items-center"
+          >
+            <i class="bi bi-envelope-paper mb-3"></i>
+            <a href=""> Info@suburbanrides.com </a>
+          </div>
+        </div>
+
+        <div class="social-links pt-4 d-flex justify-content-center">
+          <span class="facebook">
+            <i class="fa-brands fa-facebook-f"></i>
+          </span>
+          <span class="twitter">
+            <i class="fa-brands fa-x-twitter"></i>
+          </span>
+          <span class="yelp">
+            <i class="fa-brands fa-yelp"></i>
+          </span>
+          <span class="google">
+            <i class="fa-brands fa-google"></i>
+          </span>
+        </div>
+      </div>
+    </section>
+    <!-- contact-section end -->
+
+    <!-- footer start -->
+    <footer>
+      <div class="custom-container">
+        <p>© 2024 All Rights Reserved | Suburban Rides</p>
+      </div>
+    </footer>
+    <!-- footer end -->
+    <!-- Bootstrap js link -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+    <!-- custom js link -->
+    <script src="./js/script.js"></script>
+  </body>
+</html>
